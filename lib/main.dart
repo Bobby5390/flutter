@@ -20,7 +20,12 @@ class LabClass05 extends StatelessWidget {
             Icon(
               Icons.star,
               size: 50,
-              color: const Color.fromARGB(228, 255, 7, 85),
+              color: const Color.fromARGB(255, 7, 255, 189),
+            ),
+            Icon(
+              Icons.star,
+              size: 50,
+              color: const Color.fromARGB(247, 85, 255, 7),
             ),
             Icon(
               Icons.star,
@@ -30,12 +35,7 @@ class LabClass05 extends StatelessWidget {
             Icon(
               Icons.star,
               size: 50,
-              color: const Color.fromARGB(203, 255, 7, 85),
-            ),
-            Icon(
-              Icons.star,
-              size: 50,
-              color: const Color.fromARGB(212, 255, 7, 85),
+              color: const Color.fromARGB(211, 255, 7, 255),
             ),
             Icon(
               Icons.star,
