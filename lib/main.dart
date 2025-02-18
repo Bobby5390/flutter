@@ -1,4 +1,3 @@
-
 import 'package:flutter/material.dart';
 
 void main() {
@@ -21,22 +20,22 @@ class LabClass05 extends StatelessWidget {
             Icon(
               Icons.star,
               size: 50,
-              color: const Color.fromARGB(227, 22, 210, 50),
+              color: const Color.fromARGB(255, 7, 255, 189),
             ),
             Icon(
               Icons.star,
               size: 50,
-              color: const Color.fromARGB(202, 255, 176, 7),
+              color: const Color.fromARGB(247, 85, 255, 7),
             ),
             Icon(
               Icons.star,
               size: 50,
-              color: const Color.fromARGB(202, 7, 218, 255),
+              color: const Color.fromARGB(203, 255, 7, 85),
             ),
             Icon(
               Icons.star,
               size: 50,
-              color: const Color.fromARGB(211, 255, 7, 7),
+              color: const Color.fromARGB(211, 255, 7, 255),
             ),
             Icon(
               Icons.star,
