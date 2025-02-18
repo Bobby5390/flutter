@@ -9,40 +9,36 @@ class LabClass05 extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: "Basic Flutter UI - 02",
+      title: "Basic Flutter UI",
       home: Scaffold(
         appBar: AppBar(
-          title: Text("Basic Flutter UI - 02"),
+          title: Text("Basic Flutter UI"),
           backgroundColor: Colors.blue,
         ),
-        body: Row(
-          children: [
-            Icon(
-              Icons.star,
-              size: 50,
-              color: const Color.fromARGB(255, 7, 255, 189),
-            ),
-            Icon(
-              Icons.star,
-              size: 50,
-              color: const Color.fromARGB(247, 85, 255, 7),
-            ),
-            Icon(
-              Icons.star,
-              size: 50,
-              color: const Color.fromARGB(203, 255, 7, 85),
-            ),
-            Icon(
-              Icons.star,
-              size: 50,
-              color: const Color.fromARGB(211, 255, 7, 255),
-            ),
-            Icon(
-              Icons.star,
-              size: 50,
-              color: const Color.fromARGB(53, 255, 7, 85),
-            ),
-          ],
+        body: Container(
+          height: double.infinity,
+          width: double.infinity,
+          child: Column(
+            mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+            crossAxisAlignment: CrossAxisAlignment.center,
+            children: [
+              Icon(
+                Icons.ac_unit,
+                size: 30,
+                color: Colors.black,
+              ),
+              Icon(
+                Icons.account_tree,
+                size: 30,
+                color: Colors.black,
+              ),
+              Icon(
+                Icons.access_alarm,
+                size: 30,
+                color: Colors.black,
+              ),
+            ],
+          ),
         ),
       ),
     );
